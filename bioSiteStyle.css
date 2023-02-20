@@ -92,9 +92,19 @@ h1 {
     font-weight: 300;
 }
 
+.card {
+    float: left;
+    max-width: 45%;
+}
+
+card.container {
+    text-align: center;
+    float: left;
+}
+
 #bio {
     float: right;
-    max-width: 50%;
+    max-width: 55%;
 }
 
 #hobbiesPage {
