@@ -9,39 +9,27 @@ h1 {
     color: #444444;
 }
 
-figure {
-    text-align: center;
-}
-
-img {
-    width: 400px;
-    height: 350px;
-}
-
-#image-gallery {
-    margin-top: 5%;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-}
-
 #landingPage {
     background-color: #d3dde1;
     color: #444444;
 }
 
-#aboutPage {
-    background-color: #748c9b;
-    color: #FFFFFF;
-    font-weight: 300;
+#image-landing-page figure {
+    text-align: center;
 }
 
-#hobbiesPage {
-    background-color: #e1e2e2;
-    color: #444444;
-    font-weight: 300;
+#image-landing-page img {
+    width: 550px;
+    height: 450px;
+}
+
+#image-landing-page {
+    margin-top: 5%;
+}
+
+#image-landing-page > div {
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 
 #navbar {
@@ -65,3 +53,81 @@ img {
     color: black;
 }
 
+.footer {
+    background-color: darkseagreen;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p:nth-child(1) {
+    color: white;
+    font-weight: 400;
+    float: left;
+    padding-right: 10px;
+    font-style: italic;
+}
+
+.footer p:nth-child(2) {
+    color: white;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    left: 0;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+#aboutPage {
+    background-color: #748c9b;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+
+#bio {
+    float: right;
+    max-width: 50%;
+}
+
+#hobbiesPage {
+    background-color: #e1e2e2;
+    color: #444444;
+    font-weight: 300;
+}
+
+#image-hobbies-page > div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#image-hobbies-page img {
+    width: 600px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.grid-item1 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-item2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2;
+}
+
+.grid-item2 > figure {
+    text-align: center;
+    float: right;
+}
