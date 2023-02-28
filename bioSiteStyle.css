@@ -15,7 +15,8 @@ h1 {
 }
 
 #image-landing-page figure {
-    text-align: center;
+    text-align: left;
+    line-height: 20px;
 }
 
 #image-landing-page img {
@@ -36,7 +37,6 @@ h1 {
     overflow: hidden;
     background-color: darkseagreen;
     border-bottom: solid 15px lightyellow;
-
 }
 
 #navbar a {
@@ -87,24 +87,35 @@ h1 {
 }
 
 #aboutPage {
-    background-color: #748c9b;
+    background-color: #749474;
     color: #FFFFFF;
-    font-weight: 300;
+    font-weight: 700;
 }
 
 .card {
     float: left;
     max-width: 45%;
+    box-shadow: 65px 65px 20px rgba(0, 0, 0, 0.1);
 }
 
-card.container {
-    text-align: center;
-    float: left;
+.card > img {
+    width: 75%;
+    height: auto;
+    margin: 12%;
 }
 
 #bio {
     float: right;
     max-width: 55%;
+    line-height: 32px;
+}
+
+.intro {
+    margin: 8%;
+}
+
+h2 {
+    margin: 8%;
 }
 
 #hobbiesPage {
@@ -119,12 +130,14 @@ card.container {
 }
 
 #image-hobbies-page img {
-    width: 600px;
+    width: 550px;
     height: auto;
     margin-bottom: 10px;
+    box-shadow: 65px 65px 20px rgba(0, 0, 0, 0.1);
 }
 
 .grid-item1 {
+    width: 550px;
     flex: 1;
     display: flex;
     align-items: center;
@@ -132,12 +145,21 @@ card.container {
 }
 
 .grid-item2 {
+    width: 550px;
+    margin: 5%;
     display: flex;
     flex-wrap: wrap;
     flex: 2;
 }
 
-.grid-item2 > figure {
-    text-align: center;
-    float: right;
+#content1 {
+    margin: 8%;
+    width: 35%;
+    line-height: 30px;
+}
+
+#content2 {
+    margin: 8%;
+    width: 35%;
+    line-height: 30px;
 }
